@@ -8,7 +8,7 @@
 
 <nav
   class="fixed left-0 min-h-screen w-1/4 bg-dark-gray-900 hidden md:flex
-  flex-col items-center justify-center p-10">
+  flex-col items-center justify-center p-10 border-r border-dark-gray-800">
   <button
     class="flex flex-row items-center justify-end text-gray-600 w-full py-2 mt-4
     focus:outline-none transition-text-color duration-300 ease-in-out"
@@ -67,6 +67,7 @@
   <button
     class="flex flex-row items-center justify-end text-gray-600 w-full py-2 mt-4
     focus:outline-none transition-text-color duration-300 ease-in-out"
+    class:text-white={section === 'contact'}
     on:click={() => scrollTo(window.innerHeight * 4)}>
     CONTACT
   </button>

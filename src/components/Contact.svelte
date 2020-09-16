@@ -1,10 +1,12 @@
 <section
   class="flex flex-col items-center justify-center min-h-screen bg-dark-gray-900
   text-white">
-  <div>
+  <div class="w-full">
     <div class="text-5xl font-hairline text-center">Contact Me</div>
-    <div class="flex flex-row">
-      <div class="flex items-center justify-center p-4 font-thin text-lg">
+    <hr class="w-1/5 mx-auto mb-8" />
+    <div class="flex flex-col md:flex-row max-w-xl mx-auto">
+      <div
+        class="flex flex-wrap items-center justify-center p-4 font-thin text-lg">
         Send me and email at
         <a
           class="font-light underline ml-2"
@@ -13,11 +15,12 @@
           vpassanisi@gmail.com
         </a>
       </div>
-      <div class="border-l p-4">
+      <div
+        class="border-none md:border-solid border-l p-4 text-center md:text-left">
         <div class="text-lg font-thin">Phone</div>
         <div class="mb-4">831-227-6421</div>
         <div class="text-lg font-thin">Social</div>
-        <div class="flex h-12 mb-4">
+        <div class="flex justify-center h-12 mb-4">
           <a
             class="h-full mr-1"
             href="https://www.linkedin.com/in/vinny-passanisi-7a9966b8/"

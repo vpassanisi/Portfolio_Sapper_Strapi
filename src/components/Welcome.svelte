@@ -27,7 +27,7 @@
     <div
       in:scale={{ delay: 300, duration: 2000, start: 1.2 }}
       class="relative flex flex-col items-center justify-center w-11/12 md:w-1/2
-      p-8 border border-white bg-black bg-opacity-75 text-white z-10">
+      max-w-lg p-8 border border-white bg-black bg-opacity-75 text-white z-10">
       <div class="text-5xl font-hairline">Vincent</div>
       <div class="text-5xl font-hairline">Passanisi</div>
       <div class="text-white text-center text-xl font-hairline my-4">

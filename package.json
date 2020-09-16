@@ -1,11 +1,12 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "Portfolio",
+  "description": "personal portfolio client",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
     "export": "NODE_ENV=production sapper export --legacy",
+    "export_windows": "set NODE_ENV=production&&sapper export --legacy",
     "start": "node __sapper__/build",
     "cy:run": "cypress run",
     "cy:open": "cypress open",
