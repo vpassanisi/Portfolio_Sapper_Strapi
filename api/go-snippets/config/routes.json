@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/go-snippets",
+      "handler": "go-snippets.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/go-snippets/count",
+      "handler": "go-snippets.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/go-snippets/:id",
+      "handler": "go-snippets.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/go-snippets",
+      "handler": "go-snippets.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/go-snippets/:id",
+      "handler": "go-snippets.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/go-snippets/:id",
+      "handler": "go-snippets.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/javascript-snippets",
+      "handler": "javascript-snippets.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/javascript-snippets/count",
+      "handler": "javascript-snippets.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/javascript-snippets/:id",
+      "handler": "javascript-snippets.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/javascript-snippets",
+      "handler": "javascript-snippets.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/javascript-snippets/:id",
+      "handler": "javascript-snippets.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/javascript-snippets/:id",
+      "handler": "javascript-snippets.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

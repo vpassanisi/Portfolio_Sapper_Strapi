@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "javascript_snippets",
+  "info": {
+    "name": "JavascriptSnippets"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

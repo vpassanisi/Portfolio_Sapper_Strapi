@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "background": {
+      "type": "string"
+    },
+    "overlayIcon": {
+      "type": "string"
+    },
+    "techs": {
+      "collection": "techs"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "fullStack",
+        "frontend",
+        "backend"
+      ]
+    }
+  }
+}

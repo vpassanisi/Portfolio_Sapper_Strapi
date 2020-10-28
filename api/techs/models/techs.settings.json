@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "techs",
+  "info": {
+    "name": "Tech"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "skill",
+        "tech"
+      ]
+    }
+  }
+}

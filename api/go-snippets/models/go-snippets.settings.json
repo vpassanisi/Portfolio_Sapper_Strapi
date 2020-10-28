@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "go_snippets",
+  "info": {
+    "name": "GoSnippets"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}
